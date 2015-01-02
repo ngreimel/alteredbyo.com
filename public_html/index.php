@@ -15,13 +15,13 @@ date_default_timezone_set('America/Chicago');
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Altered By O</title>
+    <title>Altered By Obrycki</title>
 
     <meta name="description" content="Taking Ordinary and making it extra-ordinary!">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="css/bootstrap.min.20141001.css">
-    <link rel="stylesheet" href="css/styles.20141201.css">
+    <link rel="stylesheet" href="css/landing-page.20150101.css">
     <script src="js/vendor/modernizr-2.8.3.min.20141001.js"></script>
 
     <!--[if lt IE 9]>
@@ -29,35 +29,115 @@ date_default_timezone_set('America/Chicago');
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <style>
-body {
-  background-color: #000;
-  margin-top: 50px;
-}
-#content {
-  background-color: #fff;
-  text-align: center;
-}
-#text {
-  font-family: 'brush script mt', cursive, serif;
-  font-size: 2em;
-  margin-right: 100px;
-  text-align: right;
-}
-    </style>
   </head>
   <body>
-    <div id="content" class="container">
-      <h1>Have a seat, we'll be with you shortly!</h1>
-      <div class="row">
-        <div class="col-xs-6 col-xs-offset-3 col-md-6 col-md-offset-3">
-          <img class="img-responsive" src="img/chair-front-scaled.20141230.png" alt="" />
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+      <div class="container topnav">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand topnav" href="#">Altered By Obrycki</a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#services">Services</a>
+            </li>
+            <li>
+              <a href="#contact" data-toggle="modal">Contact</a>
+            </li>
+          </ul>
         </div>
       </div>
-      <p id="text"><em>Altered by Obrycki</em></p>
+    </nav>
+
+    <a name="about"></a>
+    <div class="intro-header">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="intro-message">
+              <h1>Altered By Obrycki</h1>
+              <h3>Don't settle for ordinary</h3>
+              <hr class="intro-divider" />
+              <ul class="list-inline intro-social-buttons">
+                <li>
+                  <a href="https://twitter.com/AlteredByO" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                </li>
+                <li>
+                  <a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
+    <!-- Page Content -->
+
+	<a name="services"></a>
+    <div class="content-section-a">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-sm-6">
+            <hr class="section-heading-spacer" />
+            <div class="clearfix"></div>
+            <h2 class="section-heading">What we do:<br /><small>And why we do it</small></h2>
+            <p class="lead">
+              We re-purpose, re-define and re-imagine ordinary and everyday
+              products into unique, heirloom pieces. Why? Because we like
+              nice things and hate hearing, "I have that exact same
+              [ dresser, table, clock ]."
+            </p>
+          </div>
+          <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+            <img class="img-responsive" src="img/chair-front-scaled.20150101.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.content-section-a -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="list-inline">
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li class="footer-menu-divider">&sdot;</li>
+              <li>
+                <a href="#about">About</a>
+              </li>
+              <li class="footer-menu-divider">&sdot;</li>
+              <li>
+                <a href="#services">Services</a>
+              </li>
+              <li class="footer-menu-divider">&sdot;</li>
+              <li>
+                <a href="#contact" data-toggle="modal">Contact</a>
+              </li>
+            </ul>
+            <p class="copyright text-muted small">Copyright &copy; Kara Obrycki 2014. All Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <form action="contact/" method="post" id="contactForm" role="form">
@@ -93,7 +173,7 @@ body {
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.20141001.js"><\/script>')</script>
     <script src="js/bootstrap.min.20141001.js"></script>
     <script src="js/vendor/jquery.cookie-1.4.1.min.20141001.js"></script>
-    <script src="js/contact.20141028.js"></script>
+    <script src="js/contact.20150101.js"></script>
     <!--[if lt IE 8]>
     <script src="js/browse.happy.20141001.js"></script>
     <![endif]-->

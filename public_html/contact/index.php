@@ -44,7 +44,7 @@ $headers = implode("\r\n", array(
   'MIME-Version: 1.0',
   'Content-type: text/html; charset=utf-8',
   'From: AlteredByO.com <no-reply@alteredbyo.com>',
-  'Bcc: Kara Obrycki <kobrycki1@gmail.com>',
+  'Bcc: Kara Obrycki <kobrycki1@gmail.com>, Neal Greimel <ngreimel@gmail.com>',
 )) . "\r\n";
 $to = "{$name} <{$email}>";
 $subject = 'Contact AlteredByO.com';

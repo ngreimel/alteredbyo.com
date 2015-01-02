@@ -6,9 +6,9 @@
 $('#contactForm').on('submit', function (e) {
   e.preventDefault();
   var $form   = $(this),
-      $modal  = $('#contactModal'),
-      $body   = $('#contactModal .modal-body'),
-      $footer = $('#contactModal .modal-footer');
+      $modal  = $('#contact'),
+      $body   = $('#contact .modal-body'),
+      $footer = $('#contact .modal-footer');
 
   $('.has-error', $form).removeClass('has-error');
   $('.alert', $modal).remove();
