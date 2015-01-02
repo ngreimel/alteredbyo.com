@@ -75,7 +75,7 @@ date_default_timezone_set('America/Chicago');
                   <a href="https://twitter.com/AlteredByO" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
                 </li>
                 <li>
-                  <a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                  <a href="https://www.linkedin.com/in/alteredbyo" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">LinkedIn</span></a>
                 </li>
               </ul>
             </div>
@@ -102,7 +102,7 @@ date_default_timezone_set('America/Chicago');
             </p>
           </div>
           <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-            <img class="img-responsive" src="img/chair-front-scaled.20150101.png" alt="" />
+            <img class="img-responsive" src="img/chair.20150102.png" alt="" />
           </div>
         </div>
       </div>
