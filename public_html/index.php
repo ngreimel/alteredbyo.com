@@ -21,7 +21,7 @@ date_default_timezone_set('America/Chicago');
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="css/bootstrap.min.20141001.css">
-    <link rel="stylesheet" href="css/landing-page.20150101.css">
+    <link rel="stylesheet" href="css/landing-page.20150104.css">
     <script src="js/vendor/modernizr-2.8.3.min.20141001.js"></script>
 
     <!--[if lt IE 9]>
@@ -63,7 +63,6 @@ date_default_timezone_set('America/Chicago');
     <a name="about"></a>
     <div class="intro-header">
       <div class="container">
-
         <div class="row">
           <div class="col-lg-12">
             <div class="intro-message">
