@@ -9,6 +9,9 @@
 
 date_default_timezone_set('America/Chicago');
 
+// Set sender and receiver
+$to = 'AlteredByO.com <info@alteredbyo.com>';
+
 // Send json header
 header('Content-type: application/json');
 
@@ -37,16 +40,17 @@ if (count($errors)) {
 
 $name = $_REQUEST['name'];
 $email = $_REQUEST['email'];
+$person = "{$name} <{$email}>";
 $comment = $_REQUEST['comment'];
 
 $now = new DateTime();
 $headers = implode("\r\n", array(
   'MIME-Version: 1.0',
   'Content-type: text/html; charset=utf-8',
-  'From: AlteredByO.com <no-reply@alteredbyo.com>',
-  'Bcc: Kara Obrycki <kobrycki1@gmail.com>, Neal Greimel <ngreimel@gmail.com>',
+  "From: {$to}",
+  "Reply-to: {$person}",
+  "Bcc: {$person}",
 )) . "\r\n";
-$to = "{$name} <{$email}>";
 $subject = 'Contact AlteredByO.com';
 $message = '<h2>Thank you for contacting us!</h2>
 <p>We have received your message and will contact you shortly if it requires a response.</p>

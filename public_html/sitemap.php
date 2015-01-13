@@ -4,7 +4,6 @@
  *
  * @author      Neal Greimel <neal@greimel.us>
  * @copyright   Copyright (c) 2014 Neal Greimel (http://neal.greimel.us)
- * @version     $Id$
  */
 
 date_default_timezone_set('America/Chicago');
@@ -15,15 +14,16 @@ $baseUrl = (isset($_SERVER['HTTPS']) ? 'https' : 'https')
 $indexes = array('index.php', 'index.htm', 'index.html');
 $defaultData = array(
     'changefreq' => 'monthly',
-    'priority'   => 0.8,
+    'priority'   => 1.0,
 );
 
 $urls = array(
     '/',
 );
 
+echo '<?xml version="1.0" encoding="UTF-8"?>';
 ?>
-<?xml version="1.0" encoding="UTF-8"?>
+
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <?php foreach ($urls as $key => $data):
     if (is_numeric($key)) {
