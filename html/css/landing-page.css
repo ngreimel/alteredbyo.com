@@ -5,7 +5,19 @@
  */
 
 @import url('//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css');
-@import url('//fonts.googleapis.com/css?family=Droid+Sans:400,700|Lobster|Shadows+Into+Light');
+
+@font-face {
+    font-family: 'Droid Sans';
+    src: url('../fonts/DroidSans.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Shadows Into Light';
+    src: url('../fonts/ShadowsIntoLight.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Lobster Two';
+    src: url('../fonts/LobsterTwo-BoldItalic.ttf') format('truetype');
+}
 
 body,
 html {
@@ -23,7 +35,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Lobster Two', cursive;
 }
 
 .topnav {
@@ -176,7 +188,6 @@ p.copyright {
 
 .mirror {
     display: inline-block;
-    text-transform: uppercase;
     -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
     -moz-transform: matrix(-1, 0, 0, 1, 0px, 0px);
     -ms-transform: matrix(-1, 0, 0, 1, 0, 0);
