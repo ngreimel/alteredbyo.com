@@ -61,13 +61,16 @@ date_default_timezone_set('America/Chicago');
       </div>
     </nav>
 
+    <div itemscope itemtype="http://schema.org/ProfessionalService">
     <a name="about"></a>
-    <div class="intro-header">
+    <div class="intro-header" id="about">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
             <div class="intro-message">
-              <h1>Alte<span class="text-uppercase mirror">r</span>ed By Obrycki</h1>
+              <h1 itemprop="alternateName" content="Altered By Obrycki">
+                Alte<span class="text-uppercase mirror">r</span>ed By Obrycki
+              </h1>
               <h3>Don't settle for ordinary</h3>
               <hr class="intro-divider" />
               <ul class="list-inline intro-social-buttons">
@@ -79,6 +82,16 @@ date_default_timezone_set('America/Chicago');
                 </li>
               </ul>
             </div>
+            <div>
+              <span itemprop="name" content="Altered By O"></span>
+              <div itemscope itemprop="address" itemtype="http://schema.org/PostalAddress">
+                <span itemprop="addressLocality" content="Minneapolis"></span>
+                <span itemprop="addressRegion" content="MN"></span>
+              </div>
+              <span itemprop="description" content="At Altered By O we recycle, repurpose, redefine and reimagine ordinary and everyday products into unique, heirloom pieces. Because everybody deserves something nice!"></span>
+              <span itemprop="email" content="info@alteredbyo.com"></span>
+              <span itemprop="url" content="https://alteredbyo.com"></span>
+            </div>
           </div>
         </div>
       </div>
@@ -86,8 +99,8 @@ date_default_timezone_set('America/Chicago');
 
     <!-- Page Content -->
 
-	<a name="services"></a>
-    <div class="content-section-a">
+    <a name="services"></a>
+    <div class="content-section-a" id="services">
       <div class="container">
         <div class="row">
           <div class="col-lg-5 col-sm-6">
@@ -131,7 +144,7 @@ date_default_timezone_set('America/Chicago');
                 <a href="#contact" data-toggle="modal">Contact</a>
               </li>
             </ul>
-            <p class="copyright text-muted small">Copyright &copy; Kara Obrycki 2014. All Rights Reserved</p>
+            <p class="copyright text-muted small">Copyright &copy; Kara Obrycki <?php echo date('Y'); ?>. All Rights Reserved</p>
           </div>
         </div>
       </div>
@@ -167,6 +180,7 @@ date_default_timezone_set('America/Chicago');
           </form>
         </div>
       </div>
+    </div>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
