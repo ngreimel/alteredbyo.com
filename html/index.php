@@ -17,11 +17,12 @@ date_default_timezone_set('America/Chicago');
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Altered By Obrycki</title>
 
-    <meta name="description" content="Taking Ordinary and making it extra-ordinary!">
+    <meta name="description" content="At Altered By O we recycle, repurpose, redefine and reimagine ordinary and everyday products into unique, heirloom pieces. Because everybody deserves something nice!">
+    <meta name="keywords" content="altered by o, altered by obrycki, alteration, furniture design, interior design, custom furniture, woodworking, tables, chairs, dressers, frames, obrycki alterations">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="css/bootstrap.min.20141001.css">
-    <link rel="stylesheet" href="css/landing-page.20150104.css">
+    <link rel="stylesheet" href="css/landing-page.20150115.css">
     <script src="js/vendor/modernizr-2.8.3.min.20141001.js"></script>
 
     <!--[if lt IE 9]>
@@ -42,7 +43,7 @@ date_default_timezone_set('America/Chicago');
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand topnav" href="#">Altered By Obrycki</a>
+          <a class="navbar-brand topnav" href="#">Alte<span class="text-uppercase mirror">r</span>ed By Obrycki</a>
         </div>
         <div class="collapse navbar-collapse" id="navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
@@ -66,7 +67,7 @@ date_default_timezone_set('America/Chicago');
         <div class="row">
           <div class="col-lg-12">
             <div class="intro-message">
-              <h1>Altered By Obrycki</h1>
+              <h1>Alte<span class="text-uppercase mirror">r</span>ed By Obrycki</h1>
               <h3>Don't settle for ordinary</h3>
               <hr class="intro-divider" />
               <ul class="list-inline intro-social-buttons">
