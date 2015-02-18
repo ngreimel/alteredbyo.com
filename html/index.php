@@ -17,7 +17,7 @@ date_default_timezone_set('America/Chicago');
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Altered By Obrycki</title>
 
-    <meta name="description" content="At Altered By O we recycle, repurpose, redefine and reimagine ordinary and everyday products into unique, heirloom pieces. Because everybody deserves something nice!">
+    <meta name="description" content="At Altered By O we recycle, repurpose, redefine and reimagine ordinary and everyday products into unique, heirloom pieces. Because everybody deserves a one-of-a-kind piece to call their own.">
     <meta name="keywords" content="altered by o, altered by obrycki, alteration, furniture design, interior design, custom furniture, woodworking, tables, chairs, dressers, frames, obrycki alterations">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -69,7 +69,7 @@ date_default_timezone_set('America/Chicago');
           <div class="col-lg-12">
             <div class="intro-message">
               <h1 itemprop="alternateName" content="Altered By Obrycki">
-                Alte<span class="text-uppercase mirror">r</span>ed By Obrycki
+                Alte<span class="">r</span>ed By Obrycki
               </h1>
               <h3>Don't settle for ordinary</h3>
               <hr class="intro-divider" />
@@ -88,7 +88,7 @@ date_default_timezone_set('America/Chicago');
                 <span itemprop="addressLocality" content="Minneapolis"></span>
                 <span itemprop="addressRegion" content="MN"></span>
               </div>
-              <span itemprop="description" content="At Altered By O we recycle, repurpose, redefine and reimagine ordinary and everyday products into unique, heirloom pieces. Because everybody deserves something nice!"></span>
+              <span itemprop="description" content="At Altered By O we recycle, repurpose, redefine and reimagine ordinary and everyday products into unique, heirloom pieces. Because everybody deserves a one-of-a-kind piece to call their own."></span>
               <span itemprop="email" content="info@alteredbyo.com"></span>
               <span itemprop="url" content="https://alteredbyo.com"></span>
             </div>
@@ -109,9 +109,10 @@ date_default_timezone_set('America/Chicago');
             <h2 class="section-heading">What we do:<br /><small>And why we do it</small></h2>
             <p class="lead">
               We re-purpose, re-define and re-imagine ordinary and everyday
-              products into unique, heirloom pieces. Why? Because we like
-              nice things and hate hearing, "I have that exact same
-              [ dresser, table, clock ]."
+              products into unique, heirloom pieces. Why? Because the things you
+              keep in your home are a reflection of yourself, and we want to
+              give you the opportunity to own something that wasn't built by
+              <em>Inserting Slot A into Tab B</em>.
             </p>
           </div>
           <div class="col-lg-5 col-lg-offset-2 col-sm-6">
@@ -192,6 +193,17 @@ date_default_timezone_set('America/Chicago');
     <script src="js/browse.happy.20141001.js"></script>
     <![endif]-->
 
+    <script>
+(function ($) {
+    $(document).scroll(function () {
+        if ($(this).scrollTop() > 0 && !$('h1[itemprop="alternateName"] span').hasClass('mirror')) {
+            $('h1[itemprop="alternateName"] span').addClass('mirror').addClass('text-uppercase');
+        } else if ($(this).scrollTop() <= 0) {
+            $('h1[itemprop="alternateName"] span').removeClass('mirror').removeClass('text-uppercase');
+        }
+    });
+})(jQuery);
+    </script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
