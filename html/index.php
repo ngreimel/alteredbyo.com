@@ -22,7 +22,7 @@ date_default_timezone_set('America/Chicago');
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="css/bootstrap.min.20141001.css">
-    <link rel="stylesheet" href="css/landing-page.201501151.css">
+    <link rel="stylesheet" href="css/landing-page.20150218.css">
     <script src="js/vendor/modernizr-2.8.3.min.20141001.js"></script>
 
     <!--[if lt IE 9]>
@@ -45,6 +45,7 @@ date_default_timezone_set('America/Chicago');
           </button>
           <a class="navbar-brand topnav" href="#">Alte<span class="text-uppercase mirror">r</span>ed By Obrycki</a>
         </div>
+        <!--
         <div class="collapse navbar-collapse" id="navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
             <li>
@@ -58,6 +59,7 @@ date_default_timezone_set('America/Chicago');
             </li>
           </ul>
         </div>
+        -->
       </div>
     </nav>
 
@@ -73,6 +75,8 @@ date_default_timezone_set('America/Chicago');
               </h1>
               <h3>Don't settle for ordinary</h3>
               <hr class="intro-divider" />
+              <h2>Coming soon...</h2>
+              <!--
               <ul class="list-inline intro-social-buttons">
                 <li>
                   <a href="https://twitter.com/AlteredByO" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
@@ -81,6 +85,7 @@ date_default_timezone_set('America/Chicago');
                   <a href="https://www.linkedin.com/in/alteredbyo" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">LinkedIn</span></a>
                 </li>
               </ul>
+              -->
             </div>
             <div>
               <span itemprop="name" content="Altered By O"></span>
@@ -97,7 +102,7 @@ date_default_timezone_set('America/Chicago');
       </div>
     </div>
 
-    <!-- Page Content -->
+    <!-- Page Content
 
     <a name="services"></a>
     <div class="content-section-a" id="services">
@@ -121,13 +126,14 @@ date_default_timezone_set('America/Chicago');
         </div>
       </div>
     </div>
-    <!-- /.content-section-a -->
+    /.content-section-a -->
 
     <!-- Footer -->
     <footer>
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
+          <!--
             <ul class="list-inline">
               <li>
                 <a href="#">Home</a>
@@ -145,6 +151,7 @@ date_default_timezone_set('America/Chicago');
                 <a href="#contact" data-toggle="modal">Contact</a>
               </li>
             </ul>
+            -->
             <p class="copyright text-muted small">Copyright &copy; Kara Obrycki <?php echo date('Y'); ?>. All Rights Reserved</p>
           </div>
         </div>

@@ -78,6 +78,11 @@ h6 {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 }
 
+.intro-message > h2 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3.5em;
+}
+
 @media(max-width:767px) {
     .intro-message {
         padding-bottom: 15%;
@@ -85,6 +90,10 @@ h6 {
 
     .intro-message > h1 {
         font-size: 3em;
+    }
+
+    .intro-message > h2 {
+        font-size: 2.5em;
     }
 
     ul.intro-social-buttons > li {
